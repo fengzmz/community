@@ -9,6 +9,6 @@ public class IndexController {
     @GetMapping("/")
     public String getIndex(){
         System.out.println("进入index");
-        return "forward:/index";
+        return "index";
     }
 }
